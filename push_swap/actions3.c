@@ -15,11 +15,9 @@
 void	index_check(t_data *stack)
 {
 	t_stack	*tmp;
-	int		i;
 	int		count;
 	t_stack	*min;
 
-	i = 0;
 	count = stack->size;
 	tmp = stack->a;
 	min = stack->a;

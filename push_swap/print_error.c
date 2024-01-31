@@ -14,19 +14,25 @@
 
 void	ft_del_stack(t_stack *a)
 {
+    t_stack *tmp;
+
 	while (a)
 	{
-		free(a);
+        tmp = a;
 		a = a->next;
+		free(tmp);
 	}
 }
 
 void	ft_del(t_data *stack)
 {
+    t_stack *tmp;
+
 	while (stack->a)
 	{
-		free(stack->a);
+        tmp = stack->a;
 		stack->a = stack->a->next;
+		free(tmp);
 	}
 }
 

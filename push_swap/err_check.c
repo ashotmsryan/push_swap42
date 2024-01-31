@@ -108,11 +108,9 @@ char	**my_while(int i, char **s)
 char	**error_check(char **nbr, t_data *stack)
 {
 	int		i;
-	int		j;
 	char	**s;
 
 	i = 0;
-	j = 0;
 	s = ft_read_numb(nbr, stack);
 	while (s[i] != NULL)
 	{

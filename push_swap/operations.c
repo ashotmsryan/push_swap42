@@ -108,11 +108,6 @@ void	mng_3(t_data *stack)
 
 void	ft_operation(t_data *stack)
 {
-	t_stack	*first;
-	t_stack	*firstb;
-
-	first = stack->a;
-	firstb = stack->b;
 	if (ifsort(stack) == 1)
 	{
 		if (stack->size <= 3)
