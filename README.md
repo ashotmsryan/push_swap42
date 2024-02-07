@@ -25,8 +25,9 @@ to manipulate both stacks. Like
 some of these instructions are missing in my project, because of the code
 
 To execute, run the command 'make' and then 
-<pre>./push_swap 4 2 "545 8" 11 001 -9</pre>
-
+```
+./push_swap 4 2 "545 8" 11 001 -9
+```
 <h3>It's working...</h3>
 <pre>
 For 3 args-max 2
